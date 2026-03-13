@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RentEase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>RentEase</h1>
+        <p>Furniture & Appliance Rental Platform</p>
+    </header>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+    <section class="hero">
+        <h2>Affordable Furniture & Appliance Rentals</h2>
+        <p>RentEase makes urban living easy by providing affordable rental options for furniture and appliances.</p>
+    </section>
+
+    <section class="products">
+
+        <div class="card">
+            <img src="images/bed.jpg" alt="Bed">
+            <h3>Bed</h3>
+            <p>₹800 / month</p>
+            <p>Deposite: ₹3000</p>
+            <button onclick="rentProduct('Bed',800, 'images/bed.jpg')">Rent Now</button>
+        </div>
+
+
+        <div class="card">
+            <img src="images/sofa.jpg" alt="Sofa">
+            <h3>Sofa</h3>
+            <p>₹500 / month</p>
+            <p>Deposite: ₹1000</p>
+            <button onclick="rentProduct('Sofa',500, 'images/sofa.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/table.jpg" alt="Table">
+            <h3>Table</h3>
+            <p>₹300 / month</p>
+            <p>Deposite: ₹2500</p>
+            <button onclick="rentProduct('Table',500, 'images/table.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/fridge.jpg" alt="Fridge">
+            <h3>Refrigerator</h3>
+            <p>₹600 / month</p>
+            <p>Deposite: ₹2000</p>
+            <button onclick="rentProduct('Fridge',500, 'images/fridge.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/washingmachine.jpg">
+            <h3>Washing Machine</h3>
+            <p>₹700 / month</p>
+            <p>Deposite: ₹2000</p>
+            <button onclick="rentProduct('washingmachine',500, 'images/washingmachine.jpg')">Rent Now</button>
+        </div>
+    
+        <div class="card">
+            <img src="images/tv.jpg" alt="TV">
+            <h3>TV</h3>
+            <p>₹650 / month</p>
+            <p>Deposite: ₹2500</p>
+            <button onclick="rentProduct('TV',500, 'images/tv.jpg')">Rent Now</button>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>© 2026 RentEase</p>
+    </footer>
+
+</body>
+
+</html>

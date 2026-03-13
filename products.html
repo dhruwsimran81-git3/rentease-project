@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Products - RentEase</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>RentEase</h1>
+        <h2>Available Products for Rent</h2>
+        <p>Furniture & Appliance Rental Platform</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="login.html">Login</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+    <h2>Available Products</h2>
+    <section class="products">
+        <div class="card">
+            <img src="images/bed.jpg" alt="Bed">
+            <h3>Bed</h3>
+            <p>₹800 / month</p>
+            <p>Deposit: ₹3000</p>
+            <button onclick="rentProduct('Bed',800, 'images/bed.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/sofa.jpg" alt="Sofa">
+            <h3>Sofa</h3>
+            <p>₹500 / month</p>
+            <p>Deposit: ₹2000</p>
+            <button onclick="rentProduct('Sofa',500, 'images/sofa.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/table.jpg" alt="Table">
+            <h3>Table</h3>
+            <p>₹300 / month</p>
+            <p>Deposit: ₹1000</p>
+            <button onclick="rentProduct('Table',300, 'images/table.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/fridge.jpg" alt="Fridge">
+            <h3>Refrigerator</h3>
+            <p>₹600 / month</p>
+            <p>Deposit: ₹2500</p>
+            <button onclick="rentProduct('Refrigerator',600, 'images/fridge.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/washingmachine.jpg" alt="Washing Machine">
+            <h3>Washing Machine</h3>
+            <p>₹700 / month</p>
+            <p>Deposit: ₹2500</p>
+            <button onclick="rentProduct('Washing Machine',700, 'images/washingmachine.jpg')">Rent Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/tv.jpg" alt="TV">
+            <h3>TV</h3>
+            <p>₹650 / month</p>
+            <p>Deposit: ₹2000</p>
+            <button onclick="rentProduct('TV',650, 'images/tv.jpg')">Rent Now</button>
+        </div>
+
+    </section>
+    <footer>
+        <p>© 2026 RentEase</p>
+    </footer>
+</body>
+
+</html>
